@@ -1,61 +1,54 @@
-# 🚀 UNSW-NB15 Intrusion Detection System (IDS) — Improved via Ensemble & Stacking
-
+# ✅ UNSW-NB15 Intrusion Detection System (IDS) — Improved via Ensemble & Stacking
 ### 👨‍💻 Author: Daniyal Hyder
-### 📊 Project Type: Data Science / Machine Learning
-### 🎯 Task: Research Paper Improvisation (2025–2026)
+### 📑 Project Type: Data Science / Machine Learning
+### 🎠 Task: Research Paper Improvisation (2025–2026)
 
 ---
-
 # 📌 Overview
 
 This project implements and **significantly improves** a machine learning-based Intrusion Detection System (IDS) based on the research paper:
 
-🔗 [Frontiers in Computer Science (2025)](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1520741/full)
+✅ [Frontiers in Computer Science (2025)](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1520741/full)
 
 Using the **UNSW-NB15 dataset**:
-🔗 [UNSW-NB15 Dataset](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
+✅ [UNSW-NB15 Dataset](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
 
 ---
+# 🎠 Objective
 
-# 🎯 Objective
-
-✔ Reproduce the baseline IDS from the paper  
-✔ Identify limitations in standalone models  
-✔ Apply **Advanced Ensemble Stacking** & **Bayesian Optimization**  
-✔ Achieve **90.10% accuracy** (a +3% improvement over baseline)
+✅ Reproduce the baseline IDS from the paper  
+✅ Identify limitations in standalone models  
+✅ Apply **Advanced Ensemble Stacking** & **Bayesian Optimization**  
+✅ Achieve **90.10% accuracy** (a +3% improvement over baseline)
 
 ---
-
-# 🏗️ System Workflow
+# 🚨 System Workflow
 
 Our improved pipeline transforms raw network data into high-precision security alerts using a multi-layer stacking architecture.
 
 ![System Workflow](report/images/workflow_diagram.png)
 
 ---
-
-# 📈 Final Results Comparison
+# 💊 Final Results Comparison
 
 | Metric | Baseline Paper | This Project | Improvement |
 | :--- | :---: | :---: | :---: |
-| **Accuracy** | ~87.0% | **90.10%** | 🟢 **+3.10%** |
-| **F1-Score** | ~0.896 | **0.915** | 🟢 **+0.019** |
-| **ROC-AUC** | ~0.900 | **0.983** | 🟢 **+0.083** |
+| **Accuracy** | ~87.0% | **90.10%** | ▢ **+3.10%** |
+| **F1-Score** | ~0.896 | **0.915** | ▢ **+0.019** |
+| **ROC-AUC** | ~0.900 | **0.983** | ▢ **+0.083** |
 
 ---
-
-# 📁 Project Documentation
+# 💱 Project Documentation
 
 For a deep dive into the technical details and performance analysis, please refer to the following documents:
 
-1.  📄 **[Difference Log](difference_log.md)**: Detailed comparison of baseline vs. our improvements with step-by-step ablation study.
-2.  📄 **[IEEE Format Report](report/IEEE_Report.md)**: A complete research report following IEEE standards, including SHAP/LIME analysis.
+1.  📔 **[Difference Log](difference_log.md)**: Detailed comparison of baseline vs. our improvements with step-by-step ablation study.
+2.  📔 **[IEEE Format Report](report/IEEE_Report.md)**: A complete research report following IEEE standards, including SHAP/LIME analysis.
 
 ---
+# 💱 Project Structure
 
-# 📁 Project Structure
-
-```text
+```
 ├── Improved_IDS_UNSW_NB15.ipynb     # Main Research Notebook
 ├── README.md                        # Project Overview
 ├── difference_log.md                # Performance Comparison & Workflow
@@ -70,7 +63,6 @@ For a deep dive into the technical details and performance analysis, please refe
 ```
 
 ---
-
 # ⚙️ Technologies Used
 
 *   **Python 3.12**
@@ -80,17 +72,20 @@ For a deep dive into the technical details and performance analysis, please refe
 *   **XAI**: SHAP, LIME
 
 ---
-
 # 🎓 Conclusion
 
 This project demonstrates that proper engineering improvements—specifically **Ensemble Stacking** and **Decision Threshold Optimization**—can significantly enhance the reliability of Machine Learning systems in cybersecurity contexts.
 
 ---
+# 🚀 Getting Started
 
-# 🚀 Final Statement
+To reproduce the results, follow these steps:
 
-**This work transforms a baseline IDS into a high-performance, production-ready system using practical data science techniques.**
+1. Clone the repository.
+2. Install the required libraries using `pip install -r requirements.txt`.
+3. Run the `Improved_IDS_UNSW_NB15.ipynb` notebook.
 
 ---
+# 🚀 Final Statement
 
-# ⭐ If you like this project, consider starring the repo!
+**This work transforms a baseline IDS into a more accurate and reliable system, demonstrating the potential of ensemble stacking and Bayesian optimization in cybersecurity applications.**

@@ -1,5 +1,5 @@
 # ✅ UNSW-NB15 Intrusion Detection System (IDS) — Improved via Ensemble & Stacking
-### 👨‍🤊 Author: Daniyal Hyder
+### 👨‍🤩 Author: Daniyal Hyder
 ### 📑 Project Type: Data Science / Machine Learning
 ### 🐍 Task: Research Paper Improvisation (2025–2026)
 
@@ -22,7 +22,7 @@ Using the **UNSW-NB15 dataset**:
 ✅ Achieve **90.10% accuracy** (a +3% improvement over baseline)
 
 ---
-# 🚨 System Workflow
+# 🟠 System Workflow
 
 Our improved pipeline transforms raw network data into high-precision security alerts using a multi-layer stacking architecture.
 
@@ -38,7 +38,7 @@ Our improved pipeline transforms raw network data into high-precision security a
 | **ROC-AUC** | ~0.900 | **0.983** | □ **+0.083** |
 
 ---
-# 💱 Project Documentation
+# 💻 Project Documentation
 
 For a deep dive into the technical details and performance analysis, please refer to the following documents:
 
@@ -46,7 +46,7 @@ For a deep dive into the technical details and performance analysis, please refe
 2.  📔 **[IEEE Format Report](report/IEEE_Report.md)**: A complete research report following IEEE standards, including SHAP/LIME analysis.
 
 ---
-# 💱 Project Structure
+# 💻 Project Structure
 
 ```
 ├── Improved_IDS_UNSW_NB15.ipynb     # Main Research Notebook
@@ -82,6 +82,7 @@ This project demonstrates that proper engineering improvements—specifically **
 To reproduce the results, follow these steps:
 
 1. Clone the repository using `git clone https://github.com/daniyal3029/Network-Intrusion-Detection-UNSW-NB15-Ensemble.git`
-2. Install the required packages using `pip install -r requirements.txt`
+2. Install required libraries using `pip install -r requirements.txt`
 3. Run the notebook using `jupyter notebook Improved_IDS_UNSW_NB15.ipynb`
 
+Note: The `requirements.txt` file is not included in the repository. Please create it and add the required libraries.

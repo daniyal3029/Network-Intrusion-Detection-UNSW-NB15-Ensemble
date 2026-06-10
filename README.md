@@ -22,14 +22,14 @@ Using the **UNSW-NB15 dataset**:
 ✅ Achieve **90.10% accuracy** (a +3% improvement over baseline)
 
 ---
-# 🟠 System Workflow
+# 🔄 System Workflow
 
 Our improved pipeline transforms raw network data into high-precision security alerts using a multi-layer stacking architecture.
 
 ![System Workflow](report/images/workflow_diagram.png)
 
 ---
-# 🦆 Final Results Comparison
+# 🦖 Final Results Comparison
 
 | Metric | Baseline Paper | This Project | Improvement |
 | :--- | :---: | :---: | :---: |
@@ -81,8 +81,14 @@ This project demonstrates that proper engineering improvements—specifically **
 
 To reproduce the results, follow these steps:
 
-1. Clone the repository using `git clone https://github.com/daniyal3029/Network-Intrusion-Detection-UNSW-NB15-Ensemble.git`
-2. Install required libraries using `pip install -r requirements.txt`
-3. Run the notebook using `jupyter notebook Improved_IDS_UNSW_NB15.ipynb`
+1. Clone the repository: `git clone https://github.com/daniyal3029/Network-Intrusion-Detection-UNSW-NB15-Ensemble.git`
+2. Install required libraries: `pip install -r requirements.txt`
+3. Run the Jupyter Notebook: `jupyter notebook Improved_IDS_UNSW_NB15.ipynb`
 
-Note: The `requirements.txt` file is not included in the repository. Please create it and add the required libraries.
+Note: Make sure to install the required libraries and run the Jupyter Notebook in the correct environment.
+
+---
+# 💻 Badges
+
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/downloads/release/python-312/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

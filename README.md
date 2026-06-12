@@ -29,7 +29,7 @@ Our improved pipeline transforms raw network data into high-precision security a
 ![System Workflow](report/images/workflow_diagram.png)
 
 ---
-# �� Final Results Comparison
+# 📱 Final Results Comparison
 
 | Metric | Baseline Paper | This Project | Improvement |
 | :--- | :---: | :---: | :---: |
@@ -82,12 +82,14 @@ This project demonstrates that proper engineering improvements—specifically **
 To reproduce the results, follow these steps:
 
 1. Clone the repository using `git clone https://github.com/daniyal3029/Network-Intrusion-Detection-UNSW-NB15-Ensemble.git`
-2. Install the required libraries using `pip install -r requirements.txt`
-3. Run the `Improved_IDS_UNSW_NB15.ipynb` notebook to train the model and generate the results
+2. Install the required packages using `pip install -r requirements.txt`
+3. Run the notebook using `jupyter notebook Improved_IDS_UNSW_NB15.ipynb`
 
-Note: Make sure to replace the dataset path in the notebook with the actual path to the UNSW-NB15 dataset on your system.
+Note: Make sure to install the required packages and run the notebook in the correct environment.
 
 ---
-# 💻 License
+# 🏠 Badges
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/daniyal3029/Network-Intrusion-Detection-UNSW-NB15-Ensemble/blob/main/LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-blue.svg)](https://jupyter.org/)
